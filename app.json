@@ -1,0 +1,19 @@
+{
+  "name": "YoutubeUploadBot",
+  "description": "Telegram to YouTube Uploader Bot",
+  "repository": "https://github.com/deepserket/telegram-bot-youtube-downloader",
+  "logo": "https://github.com/odysseusmax/utube/blob/master/ss/logo.jpeg",
+  "keywords": ["telegram", "youtube", "uploader"],
+  "env": {
+      "YOUR_TOKEN": {
+      "description": "Your Bot token.",
+      "value": ""
+    },
+    
+   },
+   "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
